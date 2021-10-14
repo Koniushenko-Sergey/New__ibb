@@ -1,10 +1,26 @@
 .header {
     /* background: black; */
     height: 500px;
-    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4) ), url('/img/lu.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    // background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4) ), url('/img/lu.jpeg');
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+
+  background: linear-gradient(45deg, #2d035e, #db8008);
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 .header__left {
@@ -117,10 +133,25 @@ font-size: 30px;
 .header {
     /* background: black; */
     // height: 500px;
-    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4) ), url('/img/lu.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    // background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4) ), url('/img/lu.jpeg');
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+background: linear-gradient(45deg, #2d035e, #db8008);
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 .header__left {
@@ -232,10 +263,25 @@ font-size: 30px;
      .header {
     /* background: black; */
     height: 500px;
-    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4) ), url('/img/lu.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    // background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4) ), url('/img/lu.jpeg');
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+  background: linear-gradient(45deg, #2d035e, #db8008);
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 .header__left {
@@ -338,4 +384,5 @@ font-size: 30px;
     font-weight: 100;
     color: white;
 }
+
  }
